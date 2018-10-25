@@ -104,7 +104,7 @@ function setMovieInSession(intent, session, callback) {
 
 function getMovieFromSession(intent, session, callback) {
     let favoriteMovie;
-    const repromptText = 'Please tell me your movie';
+    const repromptText = 'Please tell me your favorite Movie';
     const sessionAttributes = {};
     let shouldEndSession = false;
     let speechOutput = '';
